@@ -3,6 +3,7 @@ plugins {
     id("org.springframework.boot") version "3.2.3"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
+    id("org.jetbrains.kotlinx.kover") version "0.7.6"
 }
 
 group = "hu.kotlin.feladat.ms"
