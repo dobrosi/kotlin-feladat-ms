@@ -1,9 +1,9 @@
 plugins {
     val kotlinVersion = "1.9.23"
-    id("org.springframework.boot") version "3.2.3"
-    id("org.jetbrains.kotlinx.kover") version "0.7.6"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
+    id("org.springframework.boot") version "3.2.3"
+    id("org.jetbrains.kotlinx.kover") version "0.7.6"
 }
 
 group = "hu.kotlin.feladat.ms"
